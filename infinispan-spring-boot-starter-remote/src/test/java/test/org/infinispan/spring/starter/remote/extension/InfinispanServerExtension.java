@@ -1,5 +1,5 @@
 package test.org.infinispan.spring.starter.remote.extension;
-
+/*
 import java.util.stream.Stream;
 
 import org.infinispan.client.hotrod.RemoteCacheManager;
@@ -19,16 +19,16 @@ import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestTemplateInvocationContext;
-import org.junit.jupiter.api.extension.TestTemplateInvocationContextProvider;
+import org.junit.jupiter.api.extension.TestTemplateInvocationContextProvider;*/
 
 /**
  * Junit 5 simple extension for the hotrod server
  *
  * @author Katia Aresti, karesti@redhat.com
  */
-public class InfinispanServerExtension implements BeforeAllCallback, AfterAllCallback, BeforeEachCallback, AfterEachCallback, TestTemplateInvocationContextProvider {
+public class InfinispanServerExtension { //implements BeforeAllCallback, AfterAllCallback, BeforeEachCallback, AfterEachCallback, TestTemplateInvocationContextProvider {
 
-   private HotRodServer hotRodServer;
+   /*private HotRodServer hotRodServer;
    private RemoteCacheManager hotRodClient;
    private final String host;
    private final int port;
@@ -173,5 +173,5 @@ public class InfinispanServerExtension implements BeforeAllCallback, AfterAllCal
          hotRodServer.stop();
       }
    }
-
+*/
 }
